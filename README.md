@@ -65,7 +65,7 @@ something to watch.
   board behaves like the surface of a torus.
 - **Input handover:** the seed is read from stdin; afterwards the program reopens the
   controlling terminal so ncurses can read live keypresses.
-- **Tested:** a hidden `--frames N` mode runs the simulation headless (no screen) so
+- **Tested:** a hidden headless mode (set `GOL_FRAMES`) runs the simulation headless (no screen) so
   CI can valgrind it for leaks and assert oracle-verified populations.
 
 ## Tests
