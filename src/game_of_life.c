@@ -233,7 +233,7 @@ static void run_headless(int cur[H][W], int nxt[H][W], int frames) {
     printf("frames=%d population=%d\n", frames, population(cur));
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *const argv[]) {
     static int cur[H][W];
     static int nxt[H][W];
     // Look for "--frames N": N runs headless (no screen) for testing; -1 means play.
